@@ -15,7 +15,7 @@ export default function NavBar() {
       </ul>
       <div className="flex gap-4">
         <button>
-          <Link className="font-semibold px-5 hover:bg-blue-700 p-2 transition ease-in-out duration-500 rounded" href={'/'}>Entrar</Link>
+          <Link className="font-semibold px-5 hover:bg-blue-700 p-2 transition ease-in-out duration-500 rounded" href={'/login'}>Entrar</Link>
         </button>
         <div>
           <Image className="hover:bg-blue-700 cursor-pointer" src='/cart.svg' height={30} width={30} alt="cart" />
