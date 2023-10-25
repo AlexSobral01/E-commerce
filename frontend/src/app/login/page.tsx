@@ -9,7 +9,7 @@ export default function page() {
         <Input type="text" placeholder="username" name="username" id="username" contentLabel="username"/>
         <Input type="password" placeholder="password" name="password" id="password" contentLabel="password" />
         <Input type="email" placeholder="email@example.com" name="email" id="email" contentLabel="email" />
-        <button className="h-12 text-white bg-green-500 hover:bg-green-700 transition ease-in-out duration-500">Entrar</button>
+        <button className="h-12 text-white bg-green-500 hover:bg-green-700 transition ease-in-out duration-500">Login</button>
       </div>
       <Link href="/register" className="text-blue-500 hover:text-blue-700 text-center p-2">Dont have a account? Sign up now</Link>
     </form>
