@@ -11,7 +11,10 @@ const Users = database.define('users', {
   }, email: {
     type: Sequelize.STRING,
     allowNull: false
+  }, role: {
+    type: Sequelize.NUMBER,
+    allowNull: false
   }
-})
+});
 
 module.exports = Users;

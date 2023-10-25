@@ -5,4 +5,5 @@ const connection = new Sequelize('e-commerce', 'root', '04177110', {
   dialect: 'mysql'
 });
 
+
 module.exports = connection;
