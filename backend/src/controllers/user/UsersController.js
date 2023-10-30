@@ -15,7 +15,8 @@ router.post('/users', (req, res) => {
     password: password,
     email: email,
     role: 0
-  }).then(res => console.log(res)).catch(err => console.log(err))
+  }).then(res.redirect('http://localhost:3000'))
+  .catch(err => console.log(err))
 })
 
 module.exports = router;

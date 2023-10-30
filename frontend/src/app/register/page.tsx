@@ -1,9 +1,10 @@
-import Link from "next/link";
 import Input from "@/components/Input";
+import axios from "axios";
 
 export default function page() {
+  axios.post('http://localhost:3001/users')
   return (
-    <form className="flex flex-col items-center">
+    <form method="post" action={"http://localhost:3001/users"} className="flex flex-col items-center">
       <div className="flex flex-col gap-3 w-10/12 mt-10">
         <h1 className="font-medium text-3xl text-center">Register</h1>
         <Input type="text" placeholder="username" name="username" id="username" contentLabel="username"/>

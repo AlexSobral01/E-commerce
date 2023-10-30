@@ -5,11 +5,17 @@ export default function page() {
         <thead>
           <tr>
             <th>Username</th>
-            <th>Username</th>
-            <th>Username</th>
+            <th>email</th>
+            <th>role</th>
           </tr>
         </thead>
-        <tbody></tbody>
+        <tbody>
+          <tr>
+            <td>joao veloso</td>
+            <td>joazinho@gmail.com</td>
+            <td>admin</td>
+          </tr>
+        </tbody>
       </table>
     </main>
   )

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Input from "@/components/Input";
+import axios from "axios";
 
 export default function page() {
   return (
